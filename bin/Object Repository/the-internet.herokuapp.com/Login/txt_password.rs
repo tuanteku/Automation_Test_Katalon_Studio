@@ -14,7 +14,7 @@
          <value>//*[@id=&quot;password&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -23,9 +23,4 @@
       <type>Main</type>
       <value>password</value>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <value>//*[@id=&quot;password&quot;]</value>
-   </webElementXpaths>
 </WebElementEntity>
