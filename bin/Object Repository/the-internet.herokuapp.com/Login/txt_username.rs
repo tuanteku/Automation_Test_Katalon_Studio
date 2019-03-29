@@ -23,4 +23,9 @@
       <type>Main</type>
       <value>username</value>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//*[@id=&quot;username&quot;]</value>
+   </webElementXpaths>
 </WebElementEntity>

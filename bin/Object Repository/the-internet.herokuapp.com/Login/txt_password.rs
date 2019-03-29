@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Text field used for input user's name.</description>
-   <name>txt_username</name>
+   <description>This text field is used for enter user's password.</description>
+   <name>txt_password</name>
    <tag></tag>
-   <elementGuidId>d2782a61-e442-4677-abc1-3fc742eb53b9</elementGuidId>
+   <elementGuidId>5e6e49a0-7b3e-443e-8456-6d25378160f8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'username']</value>
+         <value>//*[@id = 'password']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;username&quot;]</value>
+         <value>//*[@id=&quot;password&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,11 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>username</value>
+      <value>password</value>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//*[@id=&quot;password&quot;]</value>
+   </webElementXpaths>
 </WebElementEntity>
