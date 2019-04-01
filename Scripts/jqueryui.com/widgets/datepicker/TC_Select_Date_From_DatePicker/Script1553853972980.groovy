@@ -22,6 +22,8 @@ CustomKeywords.'jqueryui.com.widgets.Datepicker.pickDate'(findTestObject('jquery
 
 println(WebUI.getAttribute(findTestObject('jqueryui.com/widgets/datepicker/txt_datePicker'), 'value'))
 
+CustomKeywords.'capture.screen.shots.CaptureScreen.takeCaptureScreen'('DatePicker')
+
 WebUI.verifyElementAttributeValue(findTestObject('jqueryui.com/widgets/datepicker/txt_datePicker'), 'value', '09/18/2020', 
     0)
 

@@ -3,10 +3,16 @@
  * This class is generated automatically by Katalon Studio and should not be modified or deleted.
  */
 
-import com.kms.katalon.core.testobject.TestObject
-
 import java.lang.String
 
+import com.kms.katalon.core.testobject.TestObject
+
+
+def static "capture.screen.shots.CaptureScreen.takeCaptureScreen"(
+    	String fileName	) {
+    (new capture.screen.shots.CaptureScreen()).takeCaptureScreen(
+        	fileName)
+}
 
 def static "jqueryui.com.widgets.Datepicker.pickDate"(
     	TestObject inputTestObject	

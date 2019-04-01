@@ -13,10 +13,15 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
  */
 public class GlobalVariable {
      
+    /**
+     * <p>Profile default : This folder is used to contain captured screen </p>
+     */
+    public static Object Path_Captured_Screen
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', [:])
+        allVariables.put('default', ['Path_Captured_Screen' : 'Captured_Screen/'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         def selectedVariables = allVariables[profileName]
@@ -28,6 +33,7 @@ public class GlobalVariable {
 			}
 		}
 
+        Path_Captured_Screen = selectedVariables["Path_Captured_Screen"]
         
     }
 }
