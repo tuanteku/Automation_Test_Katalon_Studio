@@ -7,3 +7,7 @@ This repository content sample test automation project with Katalon Studio.
   + test case
   + custom keyword
   + test listeners
+
+2. Customize Capture Screen
+  + Define Global variabl: Path to contain captured image.
+  + Create custom keyword CaptureScreen class.

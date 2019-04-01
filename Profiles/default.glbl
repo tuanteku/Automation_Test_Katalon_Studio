@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>This folder is used to contain captured screen </description>
+      <initValue>'Captured_Screen/'</initValue>
+      <name>Path_Captured_Screen</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
