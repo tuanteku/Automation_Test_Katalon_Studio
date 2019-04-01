@@ -13,3 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://jqueryui.com/datepicker/')
+
+CustomKeywords.'jqueryui.com.widgets.Datepicker.pickDate'(findTestObject('jqueryui.com/widgets/datepicker/txt_datePicker'), 
+    '09/18/2020')
+
+println(WebUI.getAttribute(findTestObject('jqueryui.com/widgets/datepicker/txt_datePicker'), 'value'))
+
+WebUI.verifyElementAttributeValue(findTestObject('jqueryui.com/widgets/datepicker/txt_datePicker'), 'value', '09/18/2020', 
+    0)
+

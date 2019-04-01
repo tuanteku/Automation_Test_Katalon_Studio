@@ -6,8 +6,16 @@
    <elementGuidId>8af591fe-86d3-4158-8186-0dfd2bbd3de8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//a[@class = 'ui-state-default' and (text() = '$(day)' or . = '$(day)')]</value>
+         <value>//a[contains(@class, 'ui-state-default') and (text() = '${day}' or . = '${day}') and @ref_element = 'Object Repository/jqueryui.com/iframe']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +29,7 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>ui-state-default</value>
@@ -31,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>$(day)</value>
+      <value>${day}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
