@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>This test data is used for test login function with data driver testing.</description>
+   <name>TestData_Login</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>9e5bb15e-1183-4dfd-98b4-b260f2c8fb1c</dataFileGUID>
+   <dataSourceUrl>Data Files/the-internet.herokuapp.com/login/LoginFuntion_DataTest.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>TestData</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

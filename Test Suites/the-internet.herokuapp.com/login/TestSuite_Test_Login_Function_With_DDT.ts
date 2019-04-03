@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TestSuite_Test_Login_Function_With_DDT</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>63c028b1-2580-4564-ab66-079835ab1fe7</testSuiteGuid>
+   <testCaseLink>
+      <guid>889cf155-de6a-4c1f-9295-4e0c88e767b4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>4a47339e-5b21-4050-9a24-a839f9c0f377</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/the-internet.herokuapp.com/login/TestData_Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4a47339e-5b21-4050-9a24-a839f9c0f377</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>field_username</value>
+         <variableId>1ac23fb0-e675-4714-a9ab-79ab70aa022f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4a47339e-5b21-4050-9a24-a839f9c0f377</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>field_password</value>
+         <variableId>2c9b336b-8fa4-473d-886c-8eead7473039</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4a47339e-5b21-4050-9a24-a839f9c0f377</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>field_message</value>
+         <variableId>b39e7fdc-b2a0-465d-9e40-826e3ef909dc</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

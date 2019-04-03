@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'username']</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -16,11 +16,4 @@
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>username</value>
-   </webElementProperties>
 </WebElementEntity>

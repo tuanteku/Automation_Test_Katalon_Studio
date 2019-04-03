@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will test login function with DDT</description>
+   <name>TC_Test_Login_Function_With_DDT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1dc95d9-f6a0-4772-a9e2-5ff59fae8d2c</testCaseGuid>
+   <variable>
+      <defaultValue>'tomsmith'</defaultValue>
+      <description></description>
+      <id>1ac23fb0-e675-4714-a9ab-79ab70aa022f</id>
+      <masked>false</masked>
+      <name>ddt_username</name>
+   </variable>
+   <variable>
+      <defaultValue>'SuperSecretPassword!'</defaultValue>
+      <description></description>
+      <id>2c9b336b-8fa4-473d-886c-8eead7473039</id>
+      <masked>false</masked>
+      <name>ddt_password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b39e7fdc-b2a0-465d-9e40-826e3ef909dc</id>
+      <masked>false</masked>
+      <name>ddt_message</name>
+   </variable>
+</TestCaseEntity>

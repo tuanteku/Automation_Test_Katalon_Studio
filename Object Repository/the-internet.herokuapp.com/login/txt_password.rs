@@ -7,20 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'password']</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;password&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>password</value>
-   </webElementProperties>
 </WebElementEntity>

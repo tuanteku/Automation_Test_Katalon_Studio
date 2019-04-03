@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite_Test_Login_Function_With_DDT,Chrome 73.0.3683.86,,2019-04-03 11:07:07,2019-04-03 11:08:57,1m - 50.069s,PASSED
+,,,,,,
+Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT,Chrome 73.0.3683.86,This test case will test login function with DDT,2019-04-03 11:07:08,2019-04-03 11:08:01,53.010s,PASSED
+Start listener action : beforeTestCase,Chrome 73.0.3683.86,,2019-04-03 11:07:09,2019-04-03 11:07:09,0.304s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-03 11:07:11,2019-04-03 11:07:51,40.253s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/login"")",Chrome 73.0.3683.86,,2019-04-03 11:07:51,2019-04-03 11:07:56,5.178s,PASSED
+"setText(findTestObject(""the-internet.herokuapp.com/login/txt_username""), ddt_username)",Chrome 73.0.3683.86,Set data from test data file into text field username.,2019-04-03 11:07:56,2019-04-03 11:07:57,1.438s,PASSED
+"setText(findTestObject(""the-internet.herokuapp.com/login/txt_password""), ddt_password)",Chrome 73.0.3683.86,Set data from test data file into text field password.,2019-04-03 11:07:57,2019-04-03 11:07:58,0.390s,PASSED
+"click(findTestObject(""the-internet.herokuapp.com/login/btn_login""))",Chrome 73.0.3683.86,,2019-04-03 11:07:58,2019-04-03 11:08:00,2.127s,PASSED
+"verifyTextPresent(ddt_message, true)",Chrome 73.0.3683.86,Verify message is displayed on screen with data from test data file.,2019-04-03 11:08:00,2019-04-03 11:08:00,0.323s,PASSED
+Start listener action : afterTestCase,Chrome 73.0.3683.86,,2019-04-03 11:08:00,2019-04-03 11:08:01,1.093s,PASSED
+,,,,,,
+Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT,Chrome 73.0.3683.86,This test case will test login function with DDT,2019-04-03 11:08:01,2019-04-03 11:08:15,13.600s,PASSED
+Start listener action : beforeTestCase,Chrome 73.0.3683.86,,2019-04-03 11:08:02,2019-04-03 11:08:02,0.000s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-03 11:08:02,2019-04-03 11:08:07,5.708s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/login"")",Chrome 73.0.3683.86,,2019-04-03 11:08:07,2019-04-03 11:08:13,5.096s,PASSED
+"setText(findTestObject(""the-internet.herokuapp.com/login/txt_username""), ddt_username)",Chrome 73.0.3683.86,Set data from test data file into text field username.,2019-04-03 11:08:13,2019-04-03 11:08:13,0.349s,PASSED
+"setText(findTestObject(""the-internet.herokuapp.com/login/txt_password""), ddt_password)",Chrome 73.0.3683.86,Set data from test data file into text field password.,2019-04-03 11:08:13,2019-04-03 11:08:13,0.226s,PASSED
+"click(findTestObject(""the-internet.herokuapp.com/login/btn_login""))",Chrome 73.0.3683.86,,2019-04-03 11:08:13,2019-04-03 11:08:14,1.023s,PASSED
+"verifyTextPresent(ddt_message, true)",Chrome 73.0.3683.86,Verify message is displayed on screen with data from test data file.,2019-04-03 11:08:14,2019-04-03 11:08:14,0.120s,PASSED
+Start listener action : afterTestCase,Chrome 73.0.3683.86,,2019-04-03 11:08:14,2019-04-03 11:08:15,0.817s,PASSED
+,,,,,,
+Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT,Chrome 73.0.3683.86,This test case will test login function with DDT,2019-04-03 11:08:15,2019-04-03 11:08:30,14.557s,PASSED
+Start listener action : beforeTestCase,Chrome 73.0.3683.86,,2019-04-03 11:08:15,2019-04-03 11:08:15,0.000s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-03 11:08:15,2019-04-03 11:08:21,5.529s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/login"")",Chrome 73.0.3683.86,,2019-04-03 11:08:21,2019-04-03 11:08:27,5.889s,PASSED
+"setText(findTestObject(""the-internet.herokuapp.com/login/txt_username""), ddt_username)",Chrome 73.0.3683.86,Set data from test data file into text field username.,2019-04-03 11:08:27,2019-04-03 11:08:27,0.232s,PASSED
+"setText(findTestObject(""the-internet.herokuapp.com/login/txt_password""), ddt_password)",Chrome 73.0.3683.86,Set data from test data file into text field password.,2019-04-03 11:08:27,2019-04-03 11:08:27,0.286s,PASSED
+"click(findTestObject(""the-internet.herokuapp.com/login/btn_login""))",Chrome 73.0.3683.86,,2019-04-03 11:08:27,2019-04-03 11:08:29,1.708s,PASSED
+"verifyTextPresent(ddt_message, true)",Chrome 73.0.3683.86,Verify message is displayed on screen with data from test data file.,2019-04-03 11:08:29,2019-04-03 11:08:29,0.120s,PASSED
+Start listener action : afterTestCase,Chrome 73.0.3683.86,,2019-04-03 11:08:29,2019-04-03 11:08:30,0.767s,PASSED
+,,,,,,
+Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT,Chrome 73.0.3683.86,This test case will test login function with DDT,2019-04-03 11:08:30,2019-04-03 11:08:43,13.242s,PASSED
+Start listener action : beforeTestCase,Chrome 73.0.3683.86,,2019-04-03 11:08:30,2019-04-03 11:08:30,0.000s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-03 11:08:30,2019-04-03 11:08:35,5.570s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/login"")",Chrome 73.0.3683.86,,2019-04-03 11:08:35,2019-04-03 11:08:40,4.958s,PASSED
+"setText(findTestObject(""the-internet.herokuapp.com/login/txt_username""), ddt_username)",Chrome 73.0.3683.86,Set data from test data file into text field username.,2019-04-03 11:08:40,2019-04-03 11:08:40,0.222s,PASSED
+"setText(findTestObject(""the-internet.herokuapp.com/login/txt_password""), ddt_password)",Chrome 73.0.3683.86,Set data from test data file into text field password.,2019-04-03 11:08:40,2019-04-03 11:08:41,0.233s,PASSED
+"click(findTestObject(""the-internet.herokuapp.com/login/btn_login""))",Chrome 73.0.3683.86,,2019-04-03 11:08:41,2019-04-03 11:08:42,0.976s,PASSED
+"verifyTextPresent(ddt_message, true)",Chrome 73.0.3683.86,Verify message is displayed on screen with data from test data file.,2019-04-03 11:08:42,2019-04-03 11:08:42,0.111s,PASSED
+Start listener action : afterTestCase,Chrome 73.0.3683.86,,2019-04-03 11:08:42,2019-04-03 11:08:43,1.151s,PASSED
+,,,,,,
+Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT,Chrome 73.0.3683.86,This test case will test login function with DDT,2019-04-03 11:08:43,2019-04-03 11:08:57,14.290s,PASSED
+Start listener action : beforeTestCase,Chrome 73.0.3683.86,,2019-04-03 11:08:43,2019-04-03 11:08:43,0.006s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-03 11:08:43,2019-04-03 11:08:48,5.482s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/login"")",Chrome 73.0.3683.86,,2019-04-03 11:08:48,2019-04-03 11:08:55,6.356s,PASSED
+"setText(findTestObject(""the-internet.herokuapp.com/login/txt_username""), ddt_username)",Chrome 73.0.3683.86,Set data from test data file into text field username.,2019-04-03 11:08:55,2019-04-03 11:08:55,0.240s,PASSED
+"setText(findTestObject(""the-internet.herokuapp.com/login/txt_password""), ddt_password)",Chrome 73.0.3683.86,Set data from test data file into text field password.,2019-04-03 11:08:55,2019-04-03 11:08:55,0.315s,PASSED
+"click(findTestObject(""the-internet.herokuapp.com/login/btn_login""))",Chrome 73.0.3683.86,,2019-04-03 11:08:55,2019-04-03 11:08:56,0.975s,PASSED
+"verifyTextPresent(ddt_message, true)",Chrome 73.0.3683.86,Verify message is displayed on screen with data from test data file.,2019-04-03 11:08:56,2019-04-03 11:08:56,0.097s,PASSED
+Start listener action : afterTestCase,Chrome 73.0.3683.86,,2019-04-03 11:08:56,2019-04-03 11:08:57,0.795s,PASSED

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_Test_Login_Function_With_DDT" time="110" tests="5" failures="0" errors="0">
+   <testsuite name="TestSuite_Test_Login_Function_With_DDT" tests="5" failures="0" errors="0" time="110" timestamp="2019-04-03 11:07:07" hostname="tuantq - DN00036.nttdata.com.vn" id="Test Suites/the-internet.herokuapp.com/login/TestSuite_Test_Login_Function_With_DDT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Users\\tuantq\\git\\AutomationTest_KatalonStudio\\Reports\\the-internet.herokuapp.com\\login\\TestSuite_Test_Login_Function_With_DDT\\20190403_110654"/>
+         <property name="logFiles" value="D:\\Users\\tuantq\\git\\AutomationTest_KatalonStudio\\Reports\\the-internet.herokuapp.com\\login\\TestSuite_Test_Login_Function_With_DDT\\20190403_110654\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tuantq - DN00036.nttdata.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="192.168.102.119"/>
+         <property name="sessionId" value="5584d8f4ef8331ebc0aa5f0ab9bd6e74"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT" classname="Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT" status="PASSED">
+         <system-out><![CDATA[2019-04-03 11:07:08 - [TEST_CASE][PASSED] - Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT: Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT
+
+2019-04-03 11:07:09 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2019-04-03 11:07:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-03 11:07:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-04-03 11:07:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-03 11:07:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-03 11:07:16 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-03 11:07:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-03 11:07:51 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/login"): Navigate to 'https://the-internet.herokuapp.com/login' successfully
+
+2019-04-03 11:07:56 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/login' successfully
+
+2019-04-03 11:07:56 - [TEST_STEP][PASSED] - setText(findTestObject("the-internet.herokuapp.com/login/txt_username"), ddt_username): Text '' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_username'
+
+2019-04-03 11:07:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_username'
+
+2019-04-03 11:07:57 - [TEST_STEP][PASSED] - setText(findTestObject("the-internet.herokuapp.com/login/txt_password"), ddt_password): Text '' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_password'
+
+2019-04-03 11:07:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_password'
+
+2019-04-03 11:07:58 - [TEST_STEP][PASSED] - click(findTestObject("the-internet.herokuapp.com/login/btn_login")): Object: 'Object Repository/the-internet.herokuapp.com/login/btn_login' is clicked on
+
+2019-04-03 11:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/login/btn_login' is clicked on
+
+2019-04-03 11:08:00 - [TEST_STEP][PASSED] - verifyTextPresent(ddt_message, true): Text 'Your username is invalid!' is present on page  using regular expression
+
+2019-04-03 11:08:00 - [MESSAGE][PASSED] - Text 'Your username is invalid!' is present on page  using regular expression
+
+2019-04-03 11:08:00 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2019-04-03 11:08:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-03 11:08:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2019-04-03 11:08:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-03 11:08:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT" classname="Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT" status="PASSED">
+         <system-out><![CDATA[2019-04-03 11:08:01 - [TEST_CASE][PASSED] - Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT: Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT
+
+2019-04-03 11:08:02 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2019-04-03 11:08:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-03 11:08:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-04-03 11:08:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-03 11:08:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-03 11:08:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-03 11:08:07 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/login"): Navigate to 'https://the-internet.herokuapp.com/login' successfully
+
+2019-04-03 11:08:13 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/login' successfully
+
+2019-04-03 11:08:13 - [TEST_STEP][PASSED] - setText(findTestObject("the-internet.herokuapp.com/login/txt_username"), ddt_username): Text 'user001' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_username'
+
+2019-04-03 11:08:13 - [MESSAGE][PASSED] - Text 'user001' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_username'
+
+2019-04-03 11:08:13 - [TEST_STEP][PASSED] - setText(findTestObject("the-internet.herokuapp.com/login/txt_password"), ddt_password): Text '' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_password'
+
+2019-04-03 11:08:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_password'
+
+2019-04-03 11:08:13 - [TEST_STEP][PASSED] - click(findTestObject("the-internet.herokuapp.com/login/btn_login")): Object: 'Object Repository/the-internet.herokuapp.com/login/btn_login' is clicked on
+
+2019-04-03 11:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/login/btn_login' is clicked on
+
+2019-04-03 11:08:14 - [TEST_STEP][PASSED] - verifyTextPresent(ddt_message, true): Text 'Your username is invalid!' is present on page  using regular expression
+
+2019-04-03 11:08:14 - [MESSAGE][PASSED] - Text 'Your username is invalid!' is present on page  using regular expression
+
+2019-04-03 11:08:14 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2019-04-03 11:08:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-03 11:08:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2019-04-03 11:08:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-03 11:08:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT" classname="Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT" status="PASSED">
+         <system-out><![CDATA[2019-04-03 11:08:15 - [TEST_CASE][PASSED] - Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT: Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT
+
+2019-04-03 11:08:15 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2019-04-03 11:08:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-03 11:08:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-04-03 11:08:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-03 11:08:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-03 11:08:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-03 11:08:21 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/login"): Navigate to 'https://the-internet.herokuapp.com/login' successfully
+
+2019-04-03 11:08:27 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/login' successfully
+
+2019-04-03 11:08:27 - [TEST_STEP][PASSED] - setText(findTestObject("the-internet.herokuapp.com/login/txt_username"), ddt_username): Text 'tomsmith' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_username'
+
+2019-04-03 11:08:27 - [MESSAGE][PASSED] - Text 'tomsmith' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_username'
+
+2019-04-03 11:08:27 - [TEST_STEP][PASSED] - setText(findTestObject("the-internet.herokuapp.com/login/txt_password"), ddt_password): Text '' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_password'
+
+2019-04-03 11:08:27 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_password'
+
+2019-04-03 11:08:27 - [TEST_STEP][PASSED] - click(findTestObject("the-internet.herokuapp.com/login/btn_login")): Object: 'Object Repository/the-internet.herokuapp.com/login/btn_login' is clicked on
+
+2019-04-03 11:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/login/btn_login' is clicked on
+
+2019-04-03 11:08:29 - [TEST_STEP][PASSED] - verifyTextPresent(ddt_message, true): Text 'Your password is invalid!' is present on page  using regular expression
+
+2019-04-03 11:08:29 - [MESSAGE][PASSED] - Text 'Your password is invalid!' is present on page  using regular expression
+
+2019-04-03 11:08:29 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2019-04-03 11:08:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-03 11:08:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2019-04-03 11:08:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-03 11:08:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT" classname="Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT" status="PASSED">
+         <system-out><![CDATA[2019-04-03 11:08:30 - [TEST_CASE][PASSED] - Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT: Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT
+
+2019-04-03 11:08:30 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2019-04-03 11:08:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-03 11:08:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-04-03 11:08:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-03 11:08:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-03 11:08:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-03 11:08:35 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/login"): Navigate to 'https://the-internet.herokuapp.com/login' successfully
+
+2019-04-03 11:08:40 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/login' successfully
+
+2019-04-03 11:08:40 - [TEST_STEP][PASSED] - setText(findTestObject("the-internet.herokuapp.com/login/txt_username"), ddt_username): Text 'tomsmith' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_username'
+
+2019-04-03 11:08:40 - [MESSAGE][PASSED] - Text 'tomsmith' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_username'
+
+2019-04-03 11:08:40 - [TEST_STEP][PASSED] - setText(findTestObject("the-internet.herokuapp.com/login/txt_password"), ddt_password): Text 'abc12345' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_password'
+
+2019-04-03 11:08:41 - [MESSAGE][PASSED] - Text 'abc12345' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_password'
+
+2019-04-03 11:08:41 - [TEST_STEP][PASSED] - click(findTestObject("the-internet.herokuapp.com/login/btn_login")): Object: 'Object Repository/the-internet.herokuapp.com/login/btn_login' is clicked on
+
+2019-04-03 11:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/login/btn_login' is clicked on
+
+2019-04-03 11:08:42 - [TEST_STEP][PASSED] - verifyTextPresent(ddt_message, true): Text 'Your password is invalid!' is present on page  using regular expression
+
+2019-04-03 11:08:42 - [MESSAGE][PASSED] - Text 'Your password is invalid!' is present on page  using regular expression
+
+2019-04-03 11:08:42 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2019-04-03 11:08:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-03 11:08:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2019-04-03 11:08:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-03 11:08:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT" classname="Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT" status="PASSED">
+         <system-out><![CDATA[2019-04-03 11:08:43 - [TEST_CASE][PASSED] - Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT: Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT
+
+2019-04-03 11:08:43 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2019-04-03 11:08:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-03 11:08:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-04-03 11:08:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-03 11:08:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-03 11:08:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-03 11:08:48 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/login"): Navigate to 'https://the-internet.herokuapp.com/login' successfully
+
+2019-04-03 11:08:55 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/login' successfully
+
+2019-04-03 11:08:55 - [TEST_STEP][PASSED] - setText(findTestObject("the-internet.herokuapp.com/login/txt_username"), ddt_username): Text 'tomsmith' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_username'
+
+2019-04-03 11:08:55 - [MESSAGE][PASSED] - Text 'tomsmith' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_username'
+
+2019-04-03 11:08:55 - [TEST_STEP][PASSED] - setText(findTestObject("the-internet.herokuapp.com/login/txt_password"), ddt_password): Text 'SuperSecretPassword!' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_password'
+
+2019-04-03 11:08:55 - [MESSAGE][PASSED] - Text 'SuperSecretPassword!' is set on object 'Object Repository/the-internet.herokuapp.com/login/txt_password'
+
+2019-04-03 11:08:55 - [TEST_STEP][PASSED] - click(findTestObject("the-internet.herokuapp.com/login/btn_login")): Object: 'Object Repository/the-internet.herokuapp.com/login/btn_login' is clicked on
+
+2019-04-03 11:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/login/btn_login' is clicked on
+
+2019-04-03 11:08:56 - [TEST_STEP][PASSED] - verifyTextPresent(ddt_message, true): Text 'You logged into a secure area!' is present on page  using regular expression
+
+2019-04-03 11:08:56 - [MESSAGE][PASSED] - Text 'You logged into a secure area!' is present on page  using regular expression
+
+2019-04-03 11:08:56 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2019-04-03 11:08:56 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-03 11:08:56 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2019-04-03 11:08:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-03 11:08:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-03 11:07:07 - [TEST_SUITE][PASSED] - TestSuite_Test_Login_Function_With_DDT: Test Cases/the-internet.herokuapp.com/login/TC_Test_Login_Function_With_DDT]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
