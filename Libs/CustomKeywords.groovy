@@ -14,6 +14,12 @@ def static "capture.screen.shots.CaptureScreen.takeCaptureScreen"(
         	fileName)
 }
 
+def static "com.configuration.runconfiguration.Extbase.runBatchFile"(
+    	String batchFile	) {
+    (new com.configuration.runconfiguration.Extbase()).runBatchFile(
+        	batchFile)
+}
+
 def static "jqueryui.com.widgets.Datepicker.pickDate"(
     	TestObject inputTestObject	
      , 	String inputDate	) {
