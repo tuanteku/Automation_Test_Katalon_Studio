@@ -17,6 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://jqueryui.com/datepicker/')
 
+'Input date you want to pickup and verify.'
 CustomKeywords.'jqueryui.com.widgets.Datepicker.pickDate'(findTestObject('jqueryui.com/widgets/datepicker/txt_datePicker'), 
     '09/18/2020')
 
